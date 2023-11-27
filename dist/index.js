@@ -1,2 +1,7 @@
 "use strict";
-console.log("typeScript is here");
+class User {
+    constructor(email, name) {
+        this.email = email;
+        this.name = name
+    }
+}
