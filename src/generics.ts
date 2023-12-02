@@ -21,4 +21,4 @@ interface Bootle {
     type: number
 }
 
-identityFour<Bootle>({})
+identityFour<Bootle>({brand: "meta", type: 222})
