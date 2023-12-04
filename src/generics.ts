@@ -33,3 +33,11 @@ const getMoreSearchProducts = <T,>(products: T[]): T => {
     const myIndex = 4
     return products[myIndex]
 }
+
+
+function anotherFunction<T, U>(valOne:T, valTwo:U):object {
+    return {
+        valOne,
+        valTwo
+    }
+}
